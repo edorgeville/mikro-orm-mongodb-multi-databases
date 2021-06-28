@@ -5,7 +5,7 @@
 ```bash
 npm install
 npm start
-``` 
+```
 
 ### Result
 This will result in the following error:
