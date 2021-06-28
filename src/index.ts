@@ -16,8 +16,8 @@ const entrypoint = async () => {
   })
 
   const productAOrm = await MikroORM.init<MongoDriver>({
-    entities: mainEntities,
-    dbName: 'main',
+    entities: productAEntities,
+    dbName: 'productA',
     type: 'mongo',
     implicitTransactions: false,
     forceEntityConstructor: true
